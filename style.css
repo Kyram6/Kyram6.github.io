@@ -1,0 +1,42 @@
+
+html {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.album-input {
+    
+}
+
+.filters {
+    display: inline;
+}
+
+#album-search-form > div {
+    margin-top: 1em;
+}
+
+#main-article {
+    margin: auto;
+}
+
+#article-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.album-image {
+   min-width: 300px; 
+   min-height: 300px;
+}
+
+.album-image:hover {
+    transform: scale(1.1);
+}
+
+.image-div {
+    max-width: 300px; 
+    max-height: 300px;
+    overflow: hidden;
+}
